@@ -6,10 +6,57 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <script src="./main.js" defer></script>
 </head>
 
 <body>
-
+  <h1>Weather App</h1>
+  <main class="main box">
+    <div class="search">
+      <input type="search" name="city" id="city" placeholder="Enter a city (e.g., Calgary)">
+      <button type="button" class="search-submit">
+        <img src="./images/search.svg" alt="Search button">
+      </button>
+    </div>
+    <h2 class="location-header"></h2>
+    <img src="#" alt="weather" class="weather-img">
+    <div class="report">
+      <div class="report-temperatures">
+        <div class="temp"></div>
+        <div class="high-low">
+          <div class="high"></div>
+          <div class="low"></div>
+        </div>
+      </div>
+      <div class="details">
+        <div class="detail">
+          <img src="./images/temp.svg" alt="">
+          <div class="info">
+            <div class="label">Feels Like</div>
+            <div class="stat" id="feels-like">ASDF</div>
+          </div>
+        </div>
+        <div class="detail">
+          <img src="./images/humidity.svg" alt="">
+          <div class="info">
+            <div class="label">Humidity</div>
+            <div class="stat" id="humidity">ASDF</div>
+          </div>
+        </div>
+        <div class="detail">
+          <img src="./images/wind.svg" alt="">
+          <div class="info">
+            <div class="label">Wind Speed</div>
+            <div class="stat" id="wind-speed">ASDF</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>By <a href="">HecticKiwi</a></footer>
 </body>
 
 </html>

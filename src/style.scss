@@ -1,0 +1,115 @@
+:root {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input {
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    background-color: transparent;
+
+}
+
+body {
+    margin: 0;
+    padding: 1.5rem;
+    min-height: 100vh;
+    background: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    display: grid;
+    place-content: center;
+    color: white;
+}
+
+.main {
+    padding: 1rem;
+    text-align: center;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.search {
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.103);
+    border-radius: 10px;
+}
+
+#city {
+    flex: 1 1 auto;
+}
+
+.search-submit {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.location-header {
+    margin-bottom: 0;
+}
+
+.weather-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.report {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.temp {
+    font-size: 4rem;
+    margin: 0;
+
+}
+
+.high-low {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    gap: 1rem;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    // border-left: 1px solid rgb(255, 255, 255);
+}
+
+.detail {
+    display: flex;
+    gap: 0.5rem;
+    text-align: left;
+}
+
+.label {
+    font-size: 0.8rem;
+}
+
+.stat {
+    font-size: 1.4rem;
+}
+
+footer {
+    margin-top: 1.5rem;
+}
+
+a {
+    color: rgb(216, 99, 70);
+}
